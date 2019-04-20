@@ -1,0 +1,34 @@
+@import 'scss/abstracts/functions';
+@import 'scss/abstracts/helpers';
+@import 'scss/abstracts/_variables';
+@import 'scss/utils/mediaquery';
+@import 'scss/utils/generic';
+@import 'scss/base/generic';
+@import 'scss/base/typography';
+@import 'scss/grids/flex';
+@import 'scss/utils/spacing';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  height: 60vh;
+}
